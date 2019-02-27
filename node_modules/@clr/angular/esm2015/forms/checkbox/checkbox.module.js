@@ -1,0 +1,28 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/**
+ * Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+ * This software is released under MIT license.
+ * The full license information can be found in LICENSE in the root directory of this project.
+ */
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { ClrIconModule } from '../../icon/icon.module';
+import { ClrHostWrappingModule } from '../../utils/host-wrapping/host-wrapping.module';
+import { ClrCommonFormsModule } from '../common/common.module';
+import { ClrCheckbox } from './checkbox';
+import { ClrCheckboxContainer } from './checkbox-container';
+import { ClrCheckboxWrapper } from './checkbox-wrapper';
+export class ClrCheckboxModule {
+}
+ClrCheckboxModule.decorators = [
+    { type: NgModule, args: [{
+                imports: [CommonModule, ClrIconModule, ClrCommonFormsModule, ClrHostWrappingModule],
+                declarations: [ClrCheckbox, ClrCheckboxContainer, ClrCheckboxWrapper],
+                exports: [ClrCommonFormsModule, ClrCheckbox, ClrCheckboxContainer, ClrCheckboxWrapper],
+                entryComponents: [ClrCheckboxWrapper],
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2hlY2tib3gubW9kdWxlLmpzIiwic291cmNlUm9vdCI6Im5nOi8vQGNsci9hbmd1bGFyLyIsInNvdXJjZXMiOlsiZm9ybXMvY2hlY2tib3gvY2hlY2tib3gubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQU1BLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxpQkFBaUIsQ0FBQztBQUMvQyxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxhQUFhLEVBQUUsTUFBTSx3QkFBd0IsQ0FBQztBQUV2RCxPQUFPLEVBQUUscUJBQXFCLEVBQUUsTUFBTSxnREFBZ0QsQ0FBQztBQUN2RixPQUFPLEVBQUUsb0JBQW9CLEVBQUUsTUFBTSx5QkFBeUIsQ0FBQztBQUUvRCxPQUFPLEVBQUUsV0FBVyxFQUFFLE1BQU0sWUFBWSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxvQkFBb0IsRUFBRSxNQUFNLHNCQUFzQixDQUFDO0FBQzVELE9BQU8sRUFBRSxrQkFBa0IsRUFBRSxNQUFNLG9CQUFvQixDQUFDO0FBUXhELE1BQU0sT0FBTyxpQkFBaUI7OztZQU43QixRQUFRLFNBQUM7Z0JBQ1IsT0FBTyxFQUFFLENBQUMsWUFBWSxFQUFFLGFBQWEsRUFBRSxvQkFBb0IsRUFBRSxxQkFBcUIsQ0FBQztnQkFDbkYsWUFBWSxFQUFFLENBQUMsV0FBVyxFQUFFLG9CQUFvQixFQUFFLGtCQUFrQixDQUFDO2dCQUNyRSxPQUFPLEVBQUUsQ0FBQyxvQkFBb0IsRUFBRSxXQUFXLEVBQUUsb0JBQW9CLEVBQUUsa0JBQWtCLENBQUM7Z0JBQ3RGLGVBQWUsRUFBRSxDQUFDLGtCQUFrQixDQUFDO2FBQ3RDIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBDb3B5cmlnaHQgKGMpIDIwMTYtMjAxOCBWTXdhcmUsIEluYy4gQWxsIFJpZ2h0cyBSZXNlcnZlZC5cbiAqIFRoaXMgc29mdHdhcmUgaXMgcmVsZWFzZWQgdW5kZXIgTUlUIGxpY2Vuc2UuXG4gKiBUaGUgZnVsbCBsaWNlbnNlIGluZm9ybWF0aW9uIGNhbiBiZSBmb3VuZCBpbiBMSUNFTlNFIGluIHRoZSByb290IGRpcmVjdG9yeSBvZiB0aGlzIHByb2plY3QuXG4gKi9cblxuaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcbmltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBDbHJJY29uTW9kdWxlIH0gZnJvbSAnLi4vLi4vaWNvbi9pY29uLm1vZHVsZSc7XG5cbmltcG9ydCB7IENsckhvc3RXcmFwcGluZ01vZHVsZSB9IGZyb20gJy4uLy4uL3V0aWxzL2hvc3Qtd3JhcHBpbmcvaG9zdC13cmFwcGluZy5tb2R1bGUnO1xuaW1wb3J0IHsgQ2xyQ29tbW9uRm9ybXNNb2R1bGUgfSBmcm9tICcuLi9jb21tb24vY29tbW9uLm1vZHVsZSc7XG5cbmltcG9ydCB7IENsckNoZWNrYm94IH0gZnJvbSAnLi9jaGVja2JveCc7XG5pbXBvcnQgeyBDbHJDaGVja2JveENvbnRhaW5lciB9IGZyb20gJy4vY2hlY2tib3gtY29udGFpbmVyJztcbmltcG9ydCB7IENsckNoZWNrYm94V3JhcHBlciB9IGZyb20gJy4vY2hlY2tib3gtd3JhcHBlcic7XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGUsIENsckljb25Nb2R1bGUsIENsckNvbW1vbkZvcm1zTW9kdWxlLCBDbHJIb3N0V3JhcHBpbmdNb2R1bGVdLFxuICBkZWNsYXJhdGlvbnM6IFtDbHJDaGVja2JveCwgQ2xyQ2hlY2tib3hDb250YWluZXIsIENsckNoZWNrYm94V3JhcHBlcl0sXG4gIGV4cG9ydHM6IFtDbHJDb21tb25Gb3Jtc01vZHVsZSwgQ2xyQ2hlY2tib3gsIENsckNoZWNrYm94Q29udGFpbmVyLCBDbHJDaGVja2JveFdyYXBwZXJdLFxuICBlbnRyeUNvbXBvbmVudHM6IFtDbHJDaGVja2JveFdyYXBwZXJdLFxufSlcbmV4cG9ydCBjbGFzcyBDbHJDaGVja2JveE1vZHVsZSB7fVxuIl19

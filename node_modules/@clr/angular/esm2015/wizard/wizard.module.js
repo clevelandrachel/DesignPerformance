@@ -1,0 +1,48 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/*
+ * Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+ * This software is released under MIT license.
+ * The full license information can be found in LICENSE in the root directory of this project.
+ */
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { ClrAlertModule } from '../emphasis/alert/alert.module';
+import { ClrModalModule } from '../modal/modal.module';
+import { ClrWizard } from './wizard';
+import { ClrWizardButton } from './wizard-button';
+import { ClrWizardCustomTags } from './wizard-custom-tags';
+import { ClrWizardHeaderAction } from './wizard-header-action';
+import { ClrWizardPage } from './wizard-page';
+import { ClrWizardPageButtons } from './wizard-page-buttons';
+import { ClrWizardPageHeaderActions } from './wizard-page-header-actions';
+import { ClrWizardPageNavTitle } from './wizard-page-navtitle';
+import { ClrWizardPageTitle } from './wizard-page-title';
+import { ClrWizardStepnav } from './wizard-stepnav';
+import { ClrWizardStepnavItem } from './wizard-stepnav-item';
+/** @type {?} */
+export const CLR_WIZARD_DIRECTIVES = [
+    ClrWizard,
+    ClrWizardPage,
+    ClrWizardStepnav,
+    ClrWizardStepnavItem,
+    ClrWizardButton,
+    ClrWizardHeaderAction,
+    ClrWizardCustomTags,
+    ClrWizardPageTitle,
+    ClrWizardPageNavTitle,
+    ClrWizardPageButtons,
+    ClrWizardPageHeaderActions,
+];
+export class ClrWizardModule {
+}
+ClrWizardModule.decorators = [
+    { type: NgModule, args: [{
+                imports: [CommonModule, ClrModalModule, ClrAlertModule],
+                declarations: [CLR_WIZARD_DIRECTIVES],
+                exports: [CLR_WIZARD_DIRECTIVES],
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoid2l6YXJkLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BjbHIvYW5ndWxhci8iLCJzb3VyY2VzIjpbIndpemFyZC93aXphcmQubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQU1BLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxpQkFBaUIsQ0FBQztBQUMvQyxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBRXpDLE9BQU8sRUFBRSxjQUFjLEVBQUUsTUFBTSxnQ0FBZ0MsQ0FBQztBQUNoRSxPQUFPLEVBQUUsY0FBYyxFQUFFLE1BQU0sdUJBQXVCLENBQUM7QUFFdkQsT0FBTyxFQUFFLFNBQVMsRUFBRSxNQUFNLFVBQVUsQ0FBQztBQUNyQyxPQUFPLEVBQUUsZUFBZSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFDbEQsT0FBTyxFQUFFLG1CQUFtQixFQUFFLE1BQU0sc0JBQXNCLENBQUM7QUFDM0QsT0FBTyxFQUFFLHFCQUFxQixFQUFFLE1BQU0sd0JBQXdCLENBQUM7QUFDL0QsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUM5QyxPQUFPLEVBQUUsb0JBQW9CLEVBQUUsTUFBTSx1QkFBdUIsQ0FBQztBQUM3RCxPQUFPLEVBQUUsMEJBQTBCLEVBQUUsTUFBTSw4QkFBOEIsQ0FBQztBQUMxRSxPQUFPLEVBQUUscUJBQXFCLEVBQUUsTUFBTSx3QkFBd0IsQ0FBQztBQUMvRCxPQUFPLEVBQUUsa0JBQWtCLEVBQUUsTUFBTSxxQkFBcUIsQ0FBQztBQUN6RCxPQUFPLEVBQUUsZ0JBQWdCLEVBQUUsTUFBTSxrQkFBa0IsQ0FBQztBQUNwRCxPQUFPLEVBQUUsb0JBQW9CLEVBQUUsTUFBTSx1QkFBdUIsQ0FBQzs7QUFFN0QsTUFBTSxPQUFPLHFCQUFxQixHQUFVO0lBQzFDLFNBQVM7SUFDVCxhQUFhO0lBQ2IsZ0JBQWdCO0lBQ2hCLG9CQUFvQjtJQUNwQixlQUFlO0lBQ2YscUJBQXFCO0lBQ3JCLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLG9CQUFvQjtJQUNwQiwwQkFBMEI7Q0FDM0I7QUFPRCxNQUFNLE9BQU8sZUFBZTs7O1lBTDNCLFFBQVEsU0FBQztnQkFDUixPQUFPLEVBQUUsQ0FBQyxZQUFZLEVBQUUsY0FBYyxFQUFFLGNBQWMsQ0FBQztnQkFDdkQsWUFBWSxFQUFFLENBQUMscUJBQXFCLENBQUM7Z0JBQ3JDLE9BQU8sRUFBRSxDQUFDLHFCQUFxQixDQUFDO2FBQ2pDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIENvcHlyaWdodCAoYykgMjAxNi0yMDE4IFZNd2FyZSwgSW5jLiBBbGwgUmlnaHRzIFJlc2VydmVkLlxuICogVGhpcyBzb2Z0d2FyZSBpcyByZWxlYXNlZCB1bmRlciBNSVQgbGljZW5zZS5cbiAqIFRoZSBmdWxsIGxpY2Vuc2UgaW5mb3JtYXRpb24gY2FuIGJlIGZvdW5kIGluIExJQ0VOU0UgaW4gdGhlIHJvb3QgZGlyZWN0b3J5IG9mIHRoaXMgcHJvamVjdC5cbiAqL1xuXG5pbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuaW1wb3J0IHsgQ2xyQWxlcnRNb2R1bGUgfSBmcm9tICcuLi9lbXBoYXNpcy9hbGVydC9hbGVydC5tb2R1bGUnO1xuaW1wb3J0IHsgQ2xyTW9kYWxNb2R1bGUgfSBmcm9tICcuLi9tb2RhbC9tb2RhbC5tb2R1bGUnO1xuXG5pbXBvcnQgeyBDbHJXaXphcmQgfSBmcm9tICcuL3dpemFyZCc7XG5pbXBvcnQgeyBDbHJXaXphcmRCdXR0b24gfSBmcm9tICcuL3dpemFyZC1idXR0b24nO1xuaW1wb3J0IHsgQ2xyV2l6YXJkQ3VzdG9tVGFncyB9IGZyb20gJy4vd2l6YXJkLWN1c3RvbS10YWdzJztcbmltcG9ydCB7IENscldpemFyZEhlYWRlckFjdGlvbiB9IGZyb20gJy4vd2l6YXJkLWhlYWRlci1hY3Rpb24nO1xuaW1wb3J0IHsgQ2xyV2l6YXJkUGFnZSB9IGZyb20gJy4vd2l6YXJkLXBhZ2UnO1xuaW1wb3J0IHsgQ2xyV2l6YXJkUGFnZUJ1dHRvbnMgfSBmcm9tICcuL3dpemFyZC1wYWdlLWJ1dHRvbnMnO1xuaW1wb3J0IHsgQ2xyV2l6YXJkUGFnZUhlYWRlckFjdGlvbnMgfSBmcm9tICcuL3dpemFyZC1wYWdlLWhlYWRlci1hY3Rpb25zJztcbmltcG9ydCB7IENscldpemFyZFBhZ2VOYXZUaXRsZSB9IGZyb20gJy4vd2l6YXJkLXBhZ2UtbmF2dGl0bGUnO1xuaW1wb3J0IHsgQ2xyV2l6YXJkUGFnZVRpdGxlIH0gZnJvbSAnLi93aXphcmQtcGFnZS10aXRsZSc7XG5pbXBvcnQgeyBDbHJXaXphcmRTdGVwbmF2IH0gZnJvbSAnLi93aXphcmQtc3RlcG5hdic7XG5pbXBvcnQgeyBDbHJXaXphcmRTdGVwbmF2SXRlbSB9IGZyb20gJy4vd2l6YXJkLXN0ZXBuYXYtaXRlbSc7XG5cbmV4cG9ydCBjb25zdCBDTFJfV0laQVJEX0RJUkVDVElWRVM6IGFueVtdID0gW1xuICBDbHJXaXphcmQsXG4gIENscldpemFyZFBhZ2UsXG4gIENscldpemFyZFN0ZXBuYXYsXG4gIENscldpemFyZFN0ZXBuYXZJdGVtLFxuICBDbHJXaXphcmRCdXR0b24sXG4gIENscldpemFyZEhlYWRlckFjdGlvbixcbiAgQ2xyV2l6YXJkQ3VzdG9tVGFncyxcbiAgQ2xyV2l6YXJkUGFnZVRpdGxlLFxuICBDbHJXaXphcmRQYWdlTmF2VGl0bGUsXG4gIENscldpemFyZFBhZ2VCdXR0b25zLFxuICBDbHJXaXphcmRQYWdlSGVhZGVyQWN0aW9ucyxcbl07XG5cbkBOZ01vZHVsZSh7XG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGUsIENsck1vZGFsTW9kdWxlLCBDbHJBbGVydE1vZHVsZV0sXG4gIGRlY2xhcmF0aW9uczogW0NMUl9XSVpBUkRfRElSRUNUSVZFU10sXG4gIGV4cG9ydHM6IFtDTFJfV0laQVJEX0RJUkVDVElWRVNdLFxufSlcbmV4cG9ydCBjbGFzcyBDbHJXaXphcmRNb2R1bGUge31cbiJdfQ==

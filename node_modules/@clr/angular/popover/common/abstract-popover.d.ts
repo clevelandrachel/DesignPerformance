@@ -1,0 +1,34 @@
+import { AfterViewChecked, ElementRef, Injector, OnDestroy, Renderer2 } from '@angular/core';
+import { IfOpenService } from '../../utils/conditional/if-open.service';
+import { Point } from './popover';
+import { PopoverOptions } from './popover-options.interface';
+export declare abstract class AbstractPopover implements AfterViewChecked, OnDestroy {
+    protected parentHost: ElementRef;
+    constructor(injector: Injector, parentHost: ElementRef);
+    protected el: ElementRef;
+    protected ifOpenService: IfOpenService;
+    protected renderer: Renderer2;
+    private popoverInstance;
+    private subscription;
+    private updateAnchor;
+    protected anchorElem: any;
+    protected anchorPoint: Point;
+    protected popoverPoint: Point;
+    protected popoverOptions: PopoverOptions;
+    protected ignoredElement: any;
+    protected anchor(): void;
+    protected release(): void;
+    ngAfterViewChecked(): void;
+    ngOnDestroy(): void;
+    readonly isOffScreen: boolean;
+    closeOnOutsideClick: boolean;
+    private hostClickListener;
+    private documentClickListener;
+    private documentESCListener;
+    private ignoredElementClickListener;
+    private ignore;
+    private attachESCListener;
+    private detachESCListener;
+    private attachOutsideClickListener;
+    private detachOutsideClickListener;
+}

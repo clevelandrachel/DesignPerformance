@@ -1,0 +1,36 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/*
+ * Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+ * This software is released under MIT license.
+ * The full license information can be found in LICENSE in the root directory of this project.
+ */
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { ClrIconModule } from '../../icon/icon.module';
+import { ClrIfExpandModule } from '../../utils/expand/if-expand.module';
+import { ClrVerticalNav } from './vertical-nav';
+import { ClrVerticalNavGroup } from './vertical-nav-group';
+import { ClrVerticalNavGroupChildren } from './vertical-nav-group-children';
+import { ClrVerticalNavIcon } from './vertical-nav-icon';
+import { ClrVerticalNavLink } from './vertical-nav-link';
+/** @type {?} */
+export const CLR_VERTICAL_NAV_DIRECTIVES = [
+    ClrVerticalNav,
+    ClrVerticalNavLink,
+    ClrVerticalNavGroup,
+    ClrVerticalNavGroupChildren,
+    ClrVerticalNavIcon,
+];
+export class ClrVerticalNavModule {
+}
+ClrVerticalNavModule.decorators = [
+    { type: NgModule, args: [{
+                imports: [CommonModule, ClrIconModule, ClrIfExpandModule],
+                declarations: [CLR_VERTICAL_NAV_DIRECTIVES],
+                exports: [CLR_VERTICAL_NAV_DIRECTIVES, ClrIfExpandModule, ClrIconModule],
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidmVydGljYWwtbmF2Lm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BjbHIvYW5ndWxhci8iLCJzb3VyY2VzIjpbImxheW91dC92ZXJ0aWNhbC1uYXYvdmVydGljYWwtbmF2Lm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFNQSxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFDL0MsT0FBTyxFQUFFLFFBQVEsRUFBUSxNQUFNLGVBQWUsQ0FBQztBQUUvQyxPQUFPLEVBQUUsYUFBYSxFQUFFLE1BQU0sd0JBQXdCLENBQUM7QUFDdkQsT0FBTyxFQUFFLGlCQUFpQixFQUFFLE1BQU0scUNBQXFDLENBQUM7QUFFeEUsT0FBTyxFQUFFLGNBQWMsRUFBRSxNQUFNLGdCQUFnQixDQUFDO0FBQ2hELE9BQU8sRUFBRSxtQkFBbUIsRUFBRSxNQUFNLHNCQUFzQixDQUFDO0FBQzNELE9BQU8sRUFBRSwyQkFBMkIsRUFBRSxNQUFNLCtCQUErQixDQUFDO0FBQzVFLE9BQU8sRUFBRSxrQkFBa0IsRUFBRSxNQUFNLHFCQUFxQixDQUFDO0FBQ3pELE9BQU8sRUFBRSxrQkFBa0IsRUFBRSxNQUFNLHFCQUFxQixDQUFDOztBQUV6RCxNQUFNLE9BQU8sMkJBQTJCLEdBQWdCO0lBQ3RELGNBQWM7SUFDZCxrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLDJCQUEyQjtJQUMzQixrQkFBa0I7Q0FDbkI7QUFPRCxNQUFNLE9BQU8sb0JBQW9COzs7WUFMaEMsUUFBUSxTQUFDO2dCQUNSLE9BQU8sRUFBRSxDQUFDLFlBQVksRUFBRSxhQUFhLEVBQUUsaUJBQWlCLENBQUM7Z0JBQ3pELFlBQVksRUFBRSxDQUFDLDJCQUEyQixDQUFDO2dCQUMzQyxPQUFPLEVBQUUsQ0FBQywyQkFBMkIsRUFBRSxpQkFBaUIsRUFBRSxhQUFhLENBQUM7YUFDekUiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogQ29weXJpZ2h0IChjKSAyMDE2LTIwMTggVk13YXJlLCBJbmMuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuXG4gKiBUaGlzIHNvZnR3YXJlIGlzIHJlbGVhc2VkIHVuZGVyIE1JVCBsaWNlbnNlLlxuICogVGhlIGZ1bGwgbGljZW5zZSBpbmZvcm1hdGlvbiBjYW4gYmUgZm91bmQgaW4gTElDRU5TRSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBwcm9qZWN0LlxuICovXG5cbmltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBOZ01vZHVsZSwgVHlwZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuXG5pbXBvcnQgeyBDbHJJY29uTW9kdWxlIH0gZnJvbSAnLi4vLi4vaWNvbi9pY29uLm1vZHVsZSc7XG5pbXBvcnQgeyBDbHJJZkV4cGFuZE1vZHVsZSB9IGZyb20gJy4uLy4uL3V0aWxzL2V4cGFuZC9pZi1leHBhbmQubW9kdWxlJztcblxuaW1wb3J0IHsgQ2xyVmVydGljYWxOYXYgfSBmcm9tICcuL3ZlcnRpY2FsLW5hdic7XG5pbXBvcnQgeyBDbHJWZXJ0aWNhbE5hdkdyb3VwIH0gZnJvbSAnLi92ZXJ0aWNhbC1uYXYtZ3JvdXAnO1xuaW1wb3J0IHsgQ2xyVmVydGljYWxOYXZHcm91cENoaWxkcmVuIH0gZnJvbSAnLi92ZXJ0aWNhbC1uYXYtZ3JvdXAtY2hpbGRyZW4nO1xuaW1wb3J0IHsgQ2xyVmVydGljYWxOYXZJY29uIH0gZnJvbSAnLi92ZXJ0aWNhbC1uYXYtaWNvbic7XG5pbXBvcnQgeyBDbHJWZXJ0aWNhbE5hdkxpbmsgfSBmcm9tICcuL3ZlcnRpY2FsLW5hdi1saW5rJztcblxuZXhwb3J0IGNvbnN0IENMUl9WRVJUSUNBTF9OQVZfRElSRUNUSVZFUzogVHlwZTxhbnk+W10gPSBbXG4gIENsclZlcnRpY2FsTmF2LFxuICBDbHJWZXJ0aWNhbE5hdkxpbmssXG4gIENsclZlcnRpY2FsTmF2R3JvdXAsXG4gIENsclZlcnRpY2FsTmF2R3JvdXBDaGlsZHJlbixcbiAgQ2xyVmVydGljYWxOYXZJY29uLFxuXTtcblxuQE5nTW9kdWxlKHtcbiAgaW1wb3J0czogW0NvbW1vbk1vZHVsZSwgQ2xySWNvbk1vZHVsZSwgQ2xySWZFeHBhbmRNb2R1bGVdLFxuICBkZWNsYXJhdGlvbnM6IFtDTFJfVkVSVElDQUxfTkFWX0RJUkVDVElWRVNdLFxuICBleHBvcnRzOiBbQ0xSX1ZFUlRJQ0FMX05BVl9ESVJFQ1RJVkVTLCBDbHJJZkV4cGFuZE1vZHVsZSwgQ2xySWNvbk1vZHVsZV0sXG59KVxuZXhwb3J0IGNsYXNzIENsclZlcnRpY2FsTmF2TW9kdWxlIHt9XG4iXX0=
