@@ -1,0 +1,30 @@
+{
+  "status": {
+    "done": 20,
+    "started": 10,
+    "notStarted": 5,
+    "notDoing": -1
+  },
+  "list": [
+    {
+      "url": "progress",
+      "text": "Progress Bars",
+      "type": "component",
+      "target": "10 seconds",
+      "releasable": "15 seconds",
+      "goal": "5 seconds",
+      "description": "A progress bar may either show an approximate percentage of completion (determinate), or indicate that an operation is ongoing (indeterminate). Usability studies have shown that users are aware of response times of over one second. Consequently, operations that take five seconds or longer to complete to be lengthy and in need of progress bar feedback.",
+      "dox": "src/app/components/components-demos/progress-bars/progress-bars.module#ProgressBarsModule"
+    },
+    {
+      "url": "spinners",
+      "text": "Spinners",
+      "type": "component",
+      "target": "3 seconds",
+      "releasable": "5 seconds",
+      "goal": "2 seconds",
+      "description": "The “spinny wheel” is a progressive indicator that can be used for import/export operations under 5 seconds.",
+      "dox": "src/app/components/components-demos/spinners/spinners.module#SpinnersModule"
+    }
+  ]
+}

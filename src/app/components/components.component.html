@@ -1,0 +1,76 @@
+<section class="dox-content" hash-listener #scrollable>
+    <div class="dox-content-wrapper">
+        <a id="top"></a>
+    <h1>Component Performance Targets</h1>
+
+    <p>
+      Meaningful, quantifiable, and testable component targets can be categorized for application speed, scalability and stability according to the following service level indicators.
+    </p>
+    <p>A component is a simple, independent microservice operation (sometimes called distributed systems, or distributed services) of a user interface that communicates via an API.  Microservice architectures help solve common, complex issues like speed and scalability, while also supporting continuous improvement and continuous delivery. The composition of UI components should be aligned and tested with real users. </p>
+
+    <p class="component-legend">
+        <span class="component-legend-item">
+        </span>
+        <span class="component-legend-item">
+        </span>
+        <span class="component-legend-item">
+        </span>
+        <span class="component-legend-item">
+        </span>
+    </p>
+
+    <table class="table table-component-list bump-down" style="max-width: 880px">
+        <thead>
+          <th>Item</th>
+          <th>Target</th>
+          <th>Releaseable</th>
+          <th class="hidden-xs-down">Goal</th>
+          <th>Description</th>
+          <th class="hidden-xs-down">Link</th>
+        </thead>
+        <tbody >
+          <tr *ngFor="let item of component" class="left">
+            <td>
+              <a *ngIf="item.url">{{item.text}}</a>
+              <span *ngIf="!item.url">{{item.text}}</span>
+
+            </td>
+            <td>
+              <span class="item.target">{{item.target}}</span>
+            </td>
+            <td>
+              <span class="item.releasable">{{item.releasable}}</span>
+            </td>
+            <td class="hidden-xs-down">
+              <span class="item.goal">{{item.goal}}</span>
+            </td>
+            <td>
+              <span class="item.description">{{item.description}}</span>
+            </td>
+            <td><a *ngIf="item.url">{{item.url}}</a>
+
+            </td>
+          </tr>
+        </tbody>
+    </table>
+    <h3>Performance Targets</h3>
+
+    <p>Performance targets are used to evaluate and observe latency tolerance, which is information of how much a user waits for a response before taking the next action like application abandonment or refresh.  These targets translate to service level indicators explained below.  </p>
+    <p>Quantitative results from these targets provide the best outcome for the user experience of the design. Some key tenants of performance targets are:
+    </p>
+
+    <ul class="list">
+        <li>They are used to improve the product quality.</li>
+        <li>They provide easy and clear output of the activity and identify areas that need more attention.</li>
+        <li>They help in comparing the results of different tests to find out the impact of any UI changes.</li>
+        <li>They provide guidance on the root cause of problem.</li>
+        <li>They establish a baseline for user acceptance tests.</li>
+        <li>They shape the user interaction.</li>
+        <li>They can be observed and measured accurately by people.</li>
+        <li>They can be measured on actual users.</li>
+        <li>They provide insights for both regression testing and future enhancements.</li>
+    </ul>
+    <p>Traditional performance targets like load time or DOMContentLoaded time can be considered unreliable performance targets if the user thinks the app is loaded. The key tenants above help guide the goals and service level indicators of the metrics.</p>
+
+</div>
+</section>
