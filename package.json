@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "predeploy": "npm run build",
-    "deploy": "development -d build"
+    "deploy": "master -d build"
   },
   "private": false,
   "homepage": "https://clevelandrachel.github.io/DesignPerformance/",
